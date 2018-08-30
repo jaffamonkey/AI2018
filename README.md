@@ -4,7 +4,7 @@ This project measures the accuracy of the decision tree learning algorithm with 
 
 ## Prerequisites
 - [Python 3](https://www.python.org/downloads/) installed (tested on v3.6).
-- [matplotlib](https://matplotlib.org) library installed for 2d plotting.
+- [matplotlib](xcode-select --install) library installed for 2d plotting.
 
 ## How to use
 Run `tests.py` to start testing accuracies for three datasets provided (`car.txt`, `phishing.txt`, `nursery.txt`). 

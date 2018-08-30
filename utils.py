@@ -1,5 +1,4 @@
 import random
-import math
 import csv
 
 
@@ -48,6 +47,7 @@ def normalize(dist):
 
 
 def information_content(values):
+    import math
     """Number of bits to represent the probability distribution in values."""
     probabilities = normalize(removeall(0, values))
     return sum(-p * math.log2(p) for p in probabilities)
